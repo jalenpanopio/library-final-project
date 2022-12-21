@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>library</title>
+  <link href="style.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet'>
+</head>
+
+
+<style>
+  body {
+    font-family: 'Courier New', monospace;
+  }
+
+  .row {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  /* Use "linear-gradient" to add a darken background effect to the image; text easier to read */
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://i.pinimg.com/564x/41/e9/86/41e986c05295f80db463a06974aa0c4e.jpg");
+    height: 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 75%;
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFF;
+    font-family: 'Amiri';
+    letter-spacing: 2px;
+    font-size: 20px;
+  }
+</style>
+
+
+<body>
+  <div class="header">
+    <h1>E-LIB <3< /h1>
+        <p>FIND THE BOOK FOR YOU</p>
+  </div>
+
+  <div class="topnav">
+    <a class="home" href="index.html">Home</a>
+    <a href="page1.html">Romance</a>
+    <a href="page2.html">Emotional</a>
+    <a href="page3.html">Horror/Thriller</a>
+    <a href="page4.html">Poetry</a>
+    <a href="page5.html">Science Fiction</a>
+    <a href="page6.html">Fantasy</a>
+  </div>
+
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1>POETRY</h1>
+      <p>FOR THE PHILOSOPHERS</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column left">
+      <p><a href="https://www.goodreads.com/book/show/54665940-the-things-i-didn-t-say-in-therapy?ref=nav_sb_ss_1_27">
+          <img src="https://m.media-amazon.com/images/I/31Sq1NG+fZL._AC_SY780_.jpg"
+            alt="The Things I Didn't Say in Therapy" style="width: 67%;opacity: 75%">
+        </a></p>
+      <p><a href="https://www.goodreads.com/book/show/19134941-all-the-things-i-never-said?ref=nav_sb_ss_1_27">
+          <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1422229793l/24688932.jpg"
+            alt="All the Things I Never Said" style="width: 67%;opacity: 75%; margin-top: 86px">
+        </a></p>
+    </div>
+
+    <div class="column middle">
+      <p><a href="https://www.goodreads.com/book/show/32800291-you-are-safe-here">
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1477668533i/32800291.jpg"
+            alt="You Are Safe Here" style="width: 67%;opacity: 75%">
+        </a></p>
+      <p><a href="https://www.goodreads.com/book/show/57538461-dear-self">
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1616808585i/57538461.jpg"
+            alt="Dear Self," style="width: 67%;opacity: 75%; margin-top: 71px">
+        </a></p>
+    </div>
+
+    <div class="column right">
+      <p><a href="https://www.goodreads.com/book/show/56898963-please-love-me-at-my-worst">
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1621776204i/56898963.jpg"
+            alt="Please Love Me at My Worst" style="width: 67%;opacity: 75%">
+        </a></p>
+      <p><a href="https://www.goodreads.com/book/show/59967363-all-the-things-i-wish-you-knew?ref=nav_sb_ss_1_30">
+          <img src="https://m.media-amazon.com/images/I/31mR+0SNZ0L._AC_SY780_.jpg" alt="All the Things I Wish You Knew"
+            style="width: 67%;opacity: 75%; margin-top: 73px">
+        </a></p>
+    </div>
+  </div>
+</body>

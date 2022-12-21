@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>library</title>
+  <link href="style.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet'>
+  <link href="script.js" rel="stylesheet" </head>
+
+  <style>
+    body {
+      font-family: 'Courier New', monospace;
+    }
+
+    .container {
+      margin-top: 30px;
+      margin-right: 30px;
+      margin-bottom: 60px;
+    }
+
+    .row {
+      margin-left: 45px;
+      margin-right: 45px;
+    }
+  </style>
+
+<body>
+
+  <div class="header">
+    <h1>E-LIB <3</h1>
+        <p>FIND THE BOOK FOR YOU</p>
+  </div>
+
+  <div class="topnav">
+    <a class="home" href="index.html">Home</a>
+    <a href="page1.html">Romance</a>
+    <a href="page2.html">Emotional</a>
+    <a href="page3.html">Horror/Thriller</a>
+    <a href="page4.html">Poetry</a>
+    <a href="page5.html">Science Fiction</a>
+    <a href="page6.html">Fantasy</a>
+  </div>
+  
+  <div class="bg-img">
+    <form action="login.php" class="container" onsubmit="return validateForm()" method="post">
+      <h1>Login</h1>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email">
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw">
+      <button type="submit" class="btn">Login</button>
+    </form>
+  </div>
+
+  <h2>Personal Favorites</h2>
+
+  <div class="row">
+
+    <div class="column left">
+      <p><a
+          href="https://www.goodreads.com/book/show/18460392-all-the-bright-places?from_search=true&from_srp=true&qid=dKap9SacVK&rank=1">
+          <img src="https://m.media-amazon.com/images/I/41tlhlBUnpL._AC_SY780_.jpg" alt="All the Bright Places"
+            style="width: 45%;opacity: 75%; margin-bottom: 15px; margin-right: 35px">
+        </a></p>
+      <p style="margin-right: 35px">
+        <i>Bright Places</i> written by Jennifer Niven is a story of two mentally troubled teens, Violet Markey and
+        Theodore Finch, and their coincidental meeting that created temporary happiness. Highly suggested book, as it
+        speaks on the topic of mental illness in adolescents in society.
+      </p>
+      <p><a href="https://www.goodreads.com/book/show/11870085-the-fault-in-our-stars?ref=nav_sb_ss_1_22">
+          <img src="https://m.media-amazon.com/images/I/51BYcXvTimL._AC_SY780_.jpg"
+            style="width: 45%;opacity: 75%;margin-bottom: 15px; margin-right: 35px; margin-top: 60px">
+        </a></p>
+      <p style="margin-right: 30px">
+        <i>The Fault in Our Stars</i> written by John Green is about teens Augustus Waters and Hazel Lancaster in their
+        battle with their chronic illnesses. Their presence in each others' lives creates motivation to live, even
+        through unfortunate times. This book recognizes the importance of love and support through struggle. Highly
+        reccomend!
+      </p>
+    </div>
+
+    <div class="column right">
+      <p><a href="https://www.goodreads.com/book/show/15749186-to-all-the-boys-i-ve-loved-before?ref=nav_sb_ss_1_33">
+          <img
+            src="https://imusic.b-cdn.net/images/item/original/702/9781442426702.jpg?jenny-han-2014-to-all-the-boys-i-ve-loved-before-to-all-the-boys-i-ve-loved-before-hardcover-book&class=scaled"
+            style="width: 45%;opacity: 75%;margin-bottom: 15px; margin-left: 35px"">
+      </a></p>
+      <p style=" margin-left: 35px">
+          <i>To All the Boys I've Loved Before</i> written by Jenny Han is an unlikely love between Peter Kavinsky, the
+          popular lacrosse player, and Laura Jean Covey, the shy quiet book lover. The book contains fan favorite
+          tropes, such as fake dating. Extremely fun read for teens!
+      </p>
+      <p><a href="https://www.goodreads.com/book/show/78411.The_Bad_Beginning?ref=nav_sb_ss_1_28">
+          <img src="http://prodimage.images-bn.com/pimages/9780064407663_p0_v9_s1200x630.jpg"
+            style="width: 47%;opacity: 75%;margin-bottom: 15px; margin-left: 35px; margin-top: 65px">
+        </a></p>
+      <p style="margin-left: 35px">
+        <i>The Series of Unfortunate Events</i> written by Lemony Snicket is a nostalgic book series very close to my
+        heart. The story of three orphans going through constant tragedies encaptured my attention. Their strong family
+        bonds and the use of high level vocabulary makes this series unique. Although it is considered a children's
+        book, I still suggest you give it a try!
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
